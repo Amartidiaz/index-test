@@ -402,7 +402,7 @@ const host = "http://163.172.89.194:9117";
 const apiKey = "yiwsudq0qv16vtdjmeru6ohi26h2yr7i";
 
 let fetchTorrent = async (query) => {
-  let url = `${host}/api/v2.0/indexers/all/results?apikey=${apiKey}&Query=${query}&Category%5B%5D=2000&Category%5B%5D=5000&Category%5B%5D=8000&Tracker%5B%5D=sktorrent-org&Tracker%5B%5D=solidtorrents`;
+  let url = `${host}/api/v2.0/indexers/all/results?apikey=${apiKey}&Query=${query}&Category%5B%5D=2000&Category%5B%5D=5000&Category%5B%5D=8000&Tracker%5B%5D=solidtorrents`;
   // console.log({ query });
   return await fetch(url, {
     headers: {
