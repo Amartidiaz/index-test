@@ -398,8 +398,8 @@ let torrent_results = [];
 // const host = "http://1.156.186.156:9117";
 // const apiKey = "lfc52616kbv1ziq9iyidtyzccjgjfvqf";
 
-const host = "http://163.172.89.194:9117";
-const apiKey = "yiwsudq0qv16vtdjmeru6ohi26h2yr7i";
+const host = "http://http://79.116.0.96/:9117";
+const apiKey = "1we4llybxtwxwym5ya3lrhd643zpr3uz";
 
 let fetchTorrent = async (query) => {
   let url = `${host}/api/v2.0/indexers/all/results?apikey=${apiKey}&Query=${query}&Category%5B%5D=2000&Category%5B%5D=5000&Category%5B%5D=8000&Tracker%5B%5D=solidtorrents`;
