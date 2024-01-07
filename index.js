@@ -398,7 +398,7 @@ let torrent_results = [];
 // const host = "http://1.156.186.156:9117";
 // const apiKey = "lfc52616kbv1ziq9iyidtyzccjgjfvqf";
 
-const host = "http://http://79.116.0.96/:9117";
+const host = "http://79.116.0.96:9117";
 const apiKey = "1we4llybxtwxwym5ya3lrhd643zpr3uz";
 
 let fetchTorrent = async (query) => {
