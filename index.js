@@ -503,7 +503,7 @@ app
     var json = {
       id: "daiki.jackettpb1.stream",
       version: "1.0.1",
-      name: "Indexer Addon",
+      name: "Mejortorrent",
       description: "Movie & TV Streams",
       logo: "https://raw.githubusercontent.com/mikmc55/index-test/main/hy5.png",
       resources: [
